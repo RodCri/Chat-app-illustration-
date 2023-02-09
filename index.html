@@ -11,32 +11,48 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <!-- Samuel Green
-  Available to Walk
-
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat. -->
+  <main class="app">
+    <section class="app__chat">
+      <header class="chat__user">
+        <div class="user__info">
+          <img src="images/left-chevron.png" alt="left-chevron" class="user__arrow">
+          <img src="images/avatar.jpg" alt="avatar" class="user__photo">
+          <div class="user">
+            <p class="user__name">Samuel Green</p>
+            <span class="user__state">Available to Walk</span>
+          </div>
+        </div>
+        <img src="images/more.png" alt="more" class="user__more">
+      </header>
+      <main class="chat__content">
+        <p class="msg">That sounds great. I’d be <br> happy with that.</p>
+        <p class="msg">Could you send over some <br> pictures of your dog, please?</p>
+        <div class="sources">
+          <img src="images/dog-image-1.jpg" alt="dog image send" class="sources__img">
+          <img src="images/dog-image-2.jpg" alt="dog image send" class="sources__img">
+          <img src="images/dog-image-3.jpg" alt="dog image send" class="sources__img">
+        </div>
+        <p class="msg msg--send">Here are a few pictures. She’s a happy girl!</p>
+        <p class="msg msg--send">Can you make it?</p>
+        <p class="msg">She looks so happy! The time <br>we discussed works. How <br>long shall I take her out for?</p>
+        <div class="msg__price">
+          <p class="price__time"><span class="circle"></span>30 minute walk</p>
+          <p class="price">$29</p>
+        </div>
+        <div class="msg__price">
+          <p class="price__time"><span class="circle"></span>1 hour walk</p>
+          <p class="price">$49</p>
+        </div>
+        <div class="msg__input">
+          <input type="text" placeholder="Type a message" class="input__msg">
+          <button class="cta">></button>
+        </div>
+      </main>
+    </section>
+    <article class="app__info">
+      <h1 class="info__title">Simple booking</h1>
+      <p class="info__description">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </article>
+  </main>
 </body>
 </html>
